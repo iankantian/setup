@@ -5,6 +5,14 @@
 'use strict';
 
 (function () {
+    function* rainbow(){
+        yield 'red';
+        yield 'orange';
+    }
+    for( let color of rainbow() ){
+        console.log( color );
+    }
+
     class ConfigState { // using class to remove need for a globals
         constructor() {
             this.httpRequest = {};

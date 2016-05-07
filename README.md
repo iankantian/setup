@@ -11,10 +11,13 @@ The the response from the server is parsed into an object that JavaScript
 can work with, allowing the code to explore what's there.
 
 In the console only, for now, is a demo of destructuring the vendri setup 
-object via the ES6 ({n}) method.
+object via the ES6 ({n}) method. Also the for...in loop is used.
 
 There is a superclass that gets extended for the specifics of these vendri
-type objects.  
+type objects.  Actual ES6 classes, with lightweight polymorphism.
+
+Liberal use of the 'let' variable declaration.  I'm still getting comfy
+with the use of 'const'.  
 
 ## Todo
 get a graphical interface.
@@ -42,3 +45,7 @@ const face_enabled = cards.map( ( ( x )=>{
     return { suit: x.suit, value: x.value };
 } ) );
 ```
+
+Gotta showoff some generators but I havent' found a browser than can cope
+with my Babel transcopiling to ES5.  However, I can swap out the source
+tag in my html and point to the raw ES6 and it works just fine.
