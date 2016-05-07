@@ -1,0 +1,37 @@
+{
+  "name": "brown_2015",
+  "version": "1.0.0",
+  "description": "working from text \"Learning JavaScript\" by Ethan Brown 2015",
+  "main": "main.js",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.8.0",
+    "babel-core": "^6.8.0",
+    "babel-preset-es2015": "^6.6.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-eslint": "^2.0.0"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iankantian/brown_2015.git"
+  },
+  "keywords": [
+    "tutorial",
+    "JavaScript",
+    "ES6",
+    "Harmony"
+  ],
+  "author": "Joshua Brown",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iankantian/brown_2015/issues"
+  },
+  "homepage": "https://github.com/iankantian/brown_2015#readme"
+}

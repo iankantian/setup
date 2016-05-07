@@ -1,0 +1,543 @@
+{
+  "width": 960,
+  "height": 540,
+  "dti": 10,
+  "pti": 10,
+  "volume": 0,
+  "debug": false,
+  "theme": "dark",
+  "adSkip": {
+    "enabled": true,
+    "duration": 2,
+    "textBefore": "You may skip in {duration}",
+    "textAfter": "Skip",
+    "sync": true
+  },
+  "constraints": {
+    "playTime": true,
+    "startTime": 3
+  },
+  "platforms": [
+    {
+      "PFID": 100,
+      "target": "#vendri_play_inline",
+      "appId": false,
+      "type": "web",
+      "setup": {},
+      "enabled": true,
+      "PLIDs": [
+        1
+      ],
+      "name": "hash_play_inline",
+      "id": "test1"
+    },
+    {
+      "PFID": 200,
+      "target": "#vendri_play_modal",
+      "appId": false,
+      "type": "web",
+      "setup": {},
+      "enabled": true,
+      "PLIDs": [
+        2
+      ],
+      "name": "hash_play_modal",
+      "id": "test2"
+    },
+    {
+      "PFID": 300,
+      "target": "#vendri_play_joshtest",
+      "appId": false,
+      "type": "web",
+      "setup": {},
+      "enabled": true,
+      "PLIDs": [
+        3
+      ],
+      "name": "hash_play_joshtest",
+      "id": "test3"
+    },
+    {
+      "PFID": 400,
+      "target": "#vendri_play_flashtalking",
+      "appId": false,
+      "type": "web",
+      "setup": {},
+      "enabled": true,
+      "PLIDs": [
+        4
+      ],
+      "name": "hash_play_flashtalking",
+      "id": "test4"
+    },
+    {
+      "PFID": 500,
+      "target": "#vendri_play_branient_lnX",
+      "appId": false,
+      "type": "web",
+      "setup": {},
+      "enabled": true,
+      "PLIDs": [
+        5
+      ],
+      "name": "hash_play_branient_lnX",
+      "id": "test5"
+    },
+    {
+      "PFID": 600,
+      "target": "*",
+      "appId": false,
+      "type": "web",
+      "setup": {},
+      "enabled": true,
+      "PLIDs": [
+        6
+      ],
+      "name": "standalone_modal",
+      "id": "test6"
+    },
+    {
+      "PFID": 700,
+      "target": "*",
+      "appId": false,
+      "type": "web",
+      "setup": {},
+      "enabled": true,
+      "PLIDs": [
+        7
+      ],
+      "name": "standalone_inline",
+      "id": "test7"
+    }
+  ],
+  "placements": [
+    {
+      "PLID": 1,
+      "PFID": 100,
+      "target": "vendri_div",
+      "type": "element",
+      "setup": {},
+      "enabled": true,
+      "CPIDs": [
+        1
+      ],
+      "name": "vendri_div_1",
+      "id": "test1"
+    },
+    {
+      "PLID": 2,
+      "PFID": 200,
+      "target": false,
+      "type": "modal",
+      "setup": {},
+      "enabled": true,
+      "CPIDs": [
+        2
+      ],
+      "name": "vendrimodal",
+      "id": "test2"
+    },
+    {
+      "PLID": 3,
+      "PFID": 300,
+      "target": "vendri_div",
+      "type": "element",
+      "setup": {},
+      "enabled": true,
+      "CPIDs": [
+        3
+      ],
+      "name": "vendri_div_2",
+      "id": "test3"
+    },
+    {
+      "PLID": 4,
+      "PFID": 400,
+      "target": "vendri_div",
+      "type": "element",
+      "setup": {},
+      "enabled": true,
+      "CPIDs": [
+        4
+      ],
+      "name": "vendri_div_3",
+      "id": "test4"
+    },
+    {
+      "PLID": 5,
+      "PFID": 500,
+      "target": "vendri_div",
+      "type": "element",
+      "setup": {},
+      "enabled": true,
+      "CPIDs": [
+        4
+      ],
+      "name": "vendri_div_4",
+      "id": "test5"
+    },
+    {
+      "PLID": 6,
+      "PFID": 600,
+      "target": false,
+      "type": "modal",
+      "setup": {},
+      "enabled": true,
+      "CPIDs": [
+        5
+      ],
+      "name": "vendri_div_5",
+      "id": "test6"
+    },
+    {
+      "PLID": 7,
+      "PFID": 700,
+      "target": "vendri_div",
+      "type": "element",
+      "setup": {},
+      "enabled": true,
+      "CPIDs": [
+        7
+      ],
+      "name": "vendri_div_6",
+      "id": "test7"
+    },
+    {
+      "PLID": 8,
+      "PFID": 800,
+      "target": "vendri_div",
+      "type": "element",
+      "setup": {},
+      "enabled": true,
+      "CPIDs": [
+        8
+      ],
+      "name": "vendri_div_7",
+      "id": "test8"
+    },
+    {
+      "PLID": 9,
+      "PFID": 900,
+      "target": "vendri_div",
+      "type": "element",
+      "setup": {},
+      "enabled": true,
+      "CPIDs": [
+        9
+      ],
+      "name": "vendri_div_8",
+      "id": "test9"
+    }
+  ],
+  "campaigns": [
+    {
+      "CPID": 1,
+      "start": 1442901690805,
+      "end": 0,
+      "type": "ad",
+      "setup": {},
+      "enabled": true,
+      "name": "campaigntest_1",
+      "id": "test_campaign_1",
+      "creatives": [
+        {
+          "CRID": 1,
+          "resource": "http://vendri.com/test/assets/myvastvideoad.xml",
+          "type": "vast",
+          "setup": {},
+          "enabled": true,
+          "name": "myvastvideoad",
+          "id": "test_myvastvideoad"
+        },
+        {
+          "CRID": 2,
+          "resource": "./xml/josh_test.xml",
+          "type": "vast",
+          "setup": {},
+          "enabled": true,
+          "name": "josh_test",
+          "id": "test_josh_test"
+        },
+        {
+          "CRID": 3,
+          "resource": "http://servedby.flashtalking.com/imp/1/31714;812030;208;xml;DailyMail;640x360VASTHTML5/",
+          "type": "vast",
+          "setup": {},
+          "enabled": true,
+          "name": "josh_test_3",
+          "id": "test_josh_test_3"
+        }
+      ]
+    },
+    {
+      "CPID": 2,
+      "start": 1442901690805,
+      "end": 0,
+      "type": "ad",
+      "setup": {},
+      "enabled": true,
+      "name": "campaigntest_2",
+      "id": "test_campaign_2",
+      "creatives": [
+        {
+          "CRID": 1,
+          "resource": "http://vendri.com/test/assets/myvastvideoad.xml",
+          "type": "vast",
+          "setup": {},
+          "enabled": true,
+          "name": "myvastvideoad",
+          "id": "test_myvastvideoad"
+        },
+        {
+          "CRID": 2,
+          "resource": "./xml/josh_test.xml",
+          "type": "vast",
+          "setup": {},
+          "enabled": true,
+          "name": "josh_test",
+          "id": "test_josh_test"
+        }
+      ]
+    },
+    {
+      "CPID": 3,
+      "start": 1442901690805,
+      "end": 0,
+      "type": "ad",
+      "setup": {},
+      "enabled": true,
+      "name": "campaigntest_3",
+      "id": "test_campaign_3",
+      "creatives": [
+        {
+          "CRID": 3,
+          "resource": "http://servedby.flashtalking.com/imp/1/31714;812030;208;xml;DailyMail;640x360VASTHTML5/",
+          "type": "vast",
+          "setup": {},
+          "enabled": true,
+          "name": "josh_test_3",
+          "id": "test_josh_test_3"
+        }
+      ]
+    },
+    {
+      "CPID": 4,
+      "start": 1442901690805,
+      "end": 0,
+      "type": "ad",
+      "setup": {},
+      "enabled": true,
+      "name": "campaigntest_5",
+      "id": "test_campaign_5",
+      "creatives": [
+        {
+          "CRID": 4,
+          "resource": "http://cdn-tags.brainient.com/1228/34f8e4e6-e83c-46da-8bf6-a37ae9ed5134/vast.xml?platform=vpaid&v=v6&proto=http",
+          "type": "vast",
+          "setup": {},
+          "enabled": true,
+          "name": "josh_test_4",
+          "id": "test_josh_test_4"
+        }
+      ]
+    },
+    {
+      "CPID": 6,
+      "start": 1442901690805,
+      "end": 0,
+      "type": "ad",
+      "setup": {},
+      "enabled": true,
+      "name": "campaigntest_5",
+      "id": "test_campaign_5",
+      "creatives": [
+        {
+          "CRID": 2,
+          "resource": "./xml/josh_test.xml",
+          "type": "vast",
+          "setup": {},
+          "enabled": true,
+          "name": "josh_test",
+          "id": "test_josh_test"
+        }
+      ]
+    },
+    {
+      "CPID": 7,
+      "start": 1442901690805,
+      "end": 0,
+      "type": "ad",
+      "setup": {},
+      "enabled": true,
+      "name": "campaigntest_5",
+      "id": "test_campaign_5",
+      "creatives": [
+        {
+          "CRID": 1,
+          "resource": "http://vendri.com/test/assets/myvastvideoad.xml",
+          "type": "vast",
+          "setup": {},
+          "enabled": true,
+          "name": "myvastvideoad",
+          "id": "test_myvastvideoad"
+        }
+      ]
+    },
+    {
+      "CPID": 8,
+      "start": 1442901690805,
+      "end": 0,
+      "type": "ad",
+      "setup": {},
+      "enabled": true,
+      "name": "campaigntest_5",
+      "id": "test_campaign_5",
+      "creatives": [
+        {
+          "CRID": 1,
+          "resource": "http://vendri.com/test/assets/myvastvideoad.xml",
+          "type": "vast",
+          "setup": {},
+          "enabled": true,
+          "name": "myvastvideoad",
+          "id": "test_myvastvideoad"
+        }
+      ]
+    },
+    {
+      "CPID": 9,
+      "start": 1442901690805,
+      "end": 0,
+      "type": "ad",
+      "setup": {},
+      "enabled": true,
+      "name": "campaigntest_5",
+      "id": "test_campaign_5",
+      "creatives": [
+        {
+          "CRID": 1,
+          "resource": "http://vendri.com/test/assets/myvastvideoad.xml",
+          "type": "vast",
+          "setup": {},
+          "enabled": true,
+          "name": "myvastvideoad",
+          "id": "test_myvastvideoad"
+        }
+      ]
+    }
+  ],
+  "creatives": [
+    {
+      "CRID": 1,
+      "resource": "http://vendri.com/test/assets/myvastvideoad.xml",
+      "type": "vast",
+      "setup": {},
+      "enabled": true,
+      "name": "myvastvideoad",
+      "id": "test_myvastvideoad"
+    },
+    {
+      "CRID": 2,
+      "resource": "./xml/josh_test.xml",
+      "type": "vast",
+      "setup": {},
+      "enabled": true,
+      "name": "josh_test",
+      "id": "test_josh_test"
+    },
+    {
+      "CRID": 3,
+      "resource": "http://servedby.flashtalking.com/imp/1/31714;812030;208;xml;DailyMail;640x360VASTHTML5/",
+      "type": "vast",
+      "setup": {},
+      "enabled": true,
+      "name": "josh_test_3",
+      "id": "test_josh_test_3"
+    },
+    {
+      "CRID": 4,
+      "resource": "http://cdn-tags.brainient.com/1228/34f8e4e6-e83c-46da-8bf6-a37ae9ed5134/vast.xml?platform=vpaid&v=v6&proto=http",
+      "type": "vast",
+      "setup": {},
+      "enabled": true,
+      "name": "josh_test_4",
+      "id": "test_josh_test_4"
+    }
+  ],
+  "triggers": [
+    {
+      "TRID": 1,
+      "PLIDs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "action": "play",
+      "method": "event",
+      "delay": 0,
+      "maxRuns": 0,
+      "tevent": {
+        "name": "vendri_play_an_ad",
+        "target": "jukebox"
+      }
+    },
+    {
+      "TRID": 2,
+      "PLIDs": [
+        7
+      ],
+      "action": "play",
+      "method": "event",
+      "delay": 0,
+      "maxRuns": 0,
+      "tevent": {
+        "name": "vendri_play_inline",
+        "target": "jukebox"
+      }
+    },
+    {
+      "TRID": 3,
+      "PLIDs": [
+        6
+      ],
+      "action": "play",
+      "method": "event",
+      "delay": 0,
+      "maxRuns": 0,
+      "tevent": {
+        "name": "vendri_play_modal",
+        "target": "jukebox"
+      }
+    },
+    {
+      "TRID": 4,
+      "PLIDs": [
+        8
+      ],
+      "action": "play",
+      "method": "event",
+      "delay": 0,
+      "maxRuns": 0,
+      "tevent": {
+        "name": "vendri_play_flashtalking",
+        "target": "jukebox"
+      }
+    },
+    {
+      "TRID": 5,
+      "PLIDs": [
+        9
+      ],
+      "action": "play",
+      "method": "event",
+      "delay": 0,
+      "maxRuns": 0,
+      "tevent": {
+        "name": "vendri_play_branient_btn",
+        "target": "jukebox"
+      }
+    }
+  ]
+}
